@@ -1,0 +1,89 @@
+.decoration{
+    font-size: 5rem;
+    height: 100px;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+}
+.filter{
+    margin-top:50px;
+    margin-left: 600px;
+ height: 100px;
+}
+.shop{
+    display: flex;
+    box-shadow: (0,0,0,0.5);
+    height: 200px;
+    margin-bottom: 20px;
+   
+}
+.hotelname{
+    font-size: 2rem;
+}
+.address{
+ padding-left: 20px;
+ font-size: 1rem;
+}
+.rating{
+    display: flex;
+}
+.button1{
+ display: flex;
+ 
+ flex-wrap: wrap;
+}
+.heart{
+    color:red;
+    background-color: azure;
+    border:2px soild rgb(13, 13, 13);
+    cursor:pointer;
+    padding:10px;
+    transition-duration:.5s;
+    margin:50%;
+}
+button:hover{
+    color:white;
+    background-color: red;
+    transform:scale(2);
+}
+.dropdown button{
+    color: #0F1111;
+    padding: 5px 5px;
+    border:none;
+    cursor:pointer;
+}
+.dropdown{
+    display:inline-block;
+    color:#0F1111;
+    text-decoration:none;
+    padding:5px 5px;
+}
+.dropdown .content{
+    display:none;
+    position:absolute;
+    background-color:rgb(10, 10, 10);
+   min-width: 10px;
+   box-shadow:2px 2px 5px#37475a;
+
+}
+.dropdown:hover .content{
+  display:block;
+}
+.dropdown:hover button{
+    background-color:#37475a;
+
+}
+.dropdown a:hover{
+    background-color: #37475a;
+}
+.navbar {
+    height:80px;
+background-color: #0F1111;
+color:white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
